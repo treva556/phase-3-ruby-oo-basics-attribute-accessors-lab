@@ -1,4 +1,5 @@
 ## code your solution here.
+#require 'pry'
 class Cat
   attr_accessor :name
     def name=(name)
@@ -12,4 +13,5 @@ end
 
 maru = Cat.new
 maru.name="Maru"
+#binding.pry
 
